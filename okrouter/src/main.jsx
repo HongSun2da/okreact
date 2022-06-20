@@ -6,6 +6,7 @@ import About from './About'
 import Header from './Header'
 import Contact from './pages/Contact'
 import MyPage from './pages/MyPage'
+import AjaxTest from './pages/AjaxTest'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/about" element={<About />} />
         <Route path="/pages/contact" element={<Contact />} />
         <Route path="/pages/mypage" element={<MyPage />} />
+        <Route path="/pages/ajaxtest" element={<AjaxTest />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
