@@ -5,6 +5,7 @@ import App from './App'
 import About from './About'
 import Header from './Header'
 import Contact from './pages/Contact'
+import MyPage from './pages/MyPage'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/" element={<App />} />
         <Route path="/about" element={<About />} />
         <Route path="/pages/contact" element={<Contact />} />
+        <Route path="/pages/mypage" element={<MyPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
