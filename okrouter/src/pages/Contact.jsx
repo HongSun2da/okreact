@@ -1,3 +1,5 @@
+import ListComp from '../components/ListComp.jsx';
+
 function Contact() {
   const list = ['Contact_1', 'Contact_2', 'Contact_3', 'Contact_4'];
   return (
@@ -5,7 +7,7 @@ function Contact() {
       <h1>pages/Contact</h1>
       <ul>
         {list.map((item, index) => (
-          <li key={index}><a href={index}>{item}( {index} )</a></li>  
+          <ListComp item={item} idx={index} key={index}></ListComp>
         ))}
       </ul>
     </div>
